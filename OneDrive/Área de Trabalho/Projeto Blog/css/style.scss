@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@import 'sass/colors';
+@import 'sass/typography';
+@import 'sass/spacing';
+@import 'sass/buttons';
+@import 'sass/icons';
+@import 'sass/menu';
+
+body{
+    width: 100%;
+    padding-top: 1px;
+    position: relative;
+    background-color: $black-dark;
+    
+    &::-webkit-scrollbar{
+        padding-right: 2px;
+        width: 8px;
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        border-radius: 8px;
+        background-color: $black-light;
+    }
+}
+
+.border{
+    border:1px solid red
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.relative{
+    position: relative;
+}
+
+svg,img{
+    width: 100%;
+
+}
+.container2 {
+    width: 100%;              /* Define a largura do contêiner */
+    max-height: 300px;             /* Define a altura do contêiner */
+    overflow: hidden;          /* Corta o conteúdo que excede as bordas */
+    border-radius: 4px;
+  }
+
+.testeimg {
+    width: 100%;             /* Ajusta a largura da imagem ao contêiner */
+    height: 100%;            /* Ajusta a altura ao contêiner */
+    object-fit: cover;       /* Faz a imagem cobrir o contêiner sem distorcer */
+    object-position: center; /* Centraliza a imagem */
+  }
+
+
+

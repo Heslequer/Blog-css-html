@@ -1,0 +1,8 @@
+{
+    "posts": [
+      { "id": 1, "title": "Aprendendo JavaScript", "content": "JavaScript é uma linguagem de programação" },
+      { "id": 2, "title": "Aprendendo React", "content": "React é uma biblioteca JavaScript para interfaces de usuário" },
+      { "id": 3, "title": "Guia de CSS", "content": "CSS é usado para estilizar páginas web" }
+    ]
+  }
+  
